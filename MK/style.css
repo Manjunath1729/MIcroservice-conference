@@ -1,0 +1,102 @@
+            .content{
+            color:blueviolet;
+            font-size: 20px;
+            display: inline-block;
+            }
+           
+        .top_left{
+            /* border: 5px solid red;*/
+            display: inline-block;
+            padding:10px;
+            position: relative;
+            width: 350px;       
+            color:red;
+            font-size: 20px ;
+        }
+        .top_mid{
+            position: relative;
+            padding:10px;
+            display: inline-block;
+            width:100px;
+            color:red;
+        }
+        .top_right{ 
+            top:15px;
+            right:33px;
+            position: absolute;
+            /* border: 5px solid yellow; */
+            padding:0px;
+            color:red;
+            display: inline-block;
+            width:225px;
+            font-size:20px;
+
+        }
+        table{
+            padding: 10px;
+            font-size:20px;
+            border-spacing:10%;
+        }
+        body{
+            margin:10px;
+            padding:0px;
+            background:url('C:\Users\Manjunath\Desktop\MK\images\Guru_Ent.jpeg');    
+            font-family: Verdana, sans-serif;
+           
+        }
+        .hea{
+            background-color: chartreuse;
+            border: 3px green solid;
+            border-radius: 3px;
+        }
+        
+        .items{
+            background-color: chartreuse;
+            border:3px solid black;
+            border-radius: 3px;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+            grid-gap:50px;
+            grid-auto-rows: minmax(100px,auto);
+            grid-auto-columns: minmax(50px,auto);
+        }
+
+     
+        #items-1{
+           
+            grid-column-start:1 ;
+            grid-column-end: 5;
+        }
+        .items-1-containers{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);  
+        }
+        
+        .nested-item{
+            background-color: aquamarine;
+            border:3px solid black;
+            border-radius: 3px ;
+        }
+
+
+        .flex-container{
+            display:flex;
+            flex-wrap: wrap;
+        }
+        
+        .flex-items{
+            background-color: greenyellow;
+            border: 3px solid green ;
+            border-radius: 3px;
+        }
+/*         
+        .container{
+         display: grid;
+         grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+         grid-gap:20px;
+         grid-auto-rows: minmax(100px,auto);
+         grid-auto-columns: minmax(50px,auto);
+        }     */
